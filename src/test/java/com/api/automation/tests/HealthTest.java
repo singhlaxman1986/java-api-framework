@@ -15,7 +15,7 @@ public class HealthTest {
         ApiClient client = new ApiClient(baseUrl);
         var resp = client.get("/get");
         // assert status
-        com.api.automation.utils.Validator.assertStatusCode(resp, 200);
+        com.api.automation.utils.Validator.assertStatusCode(resp, 100);
 
         // deserialize to POJO
         com.api.automation.model.HttpBinGetResponse model = resp.as(com.api.automation.model.HttpBinGetResponse.class);
