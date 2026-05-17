@@ -1,0 +1,4 @@
+com\api\automation\model\HttpBinGetResponse.class
+com\api\automation\client\ApiClient.class
+com\api\automation\tests\HealthTest.class
+com\api\automation\utils\Validator.class
